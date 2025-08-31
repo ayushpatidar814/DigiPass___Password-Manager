@@ -4,7 +4,7 @@ const dotenv = require("dotenv");
 const cors = require("cors");
 
 dotenv.config();
-const ayush = "";
+
 const url = "mongodb://localhost:27017";
 const client = new MongoClient(url);
 const dbName = "passop";
