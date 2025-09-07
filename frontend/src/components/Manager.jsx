@@ -124,8 +124,8 @@ const Manager = () => {
       <div className=" p-2 mycontainer min-h-[88.2vh]">
         <h1 className="text-3xl text font-bold text-center">
           <span className="text-green">&lt;</span>
-          <span>Pass</span>
-          <span className="text-green">OP/&gt;</span>
+          <span>DigiPass</span>
+          <span className="text-green">&gt;</span>
         </h1>
         <p className="text-green-900 text-center">Your own Password Manager</p>
 
