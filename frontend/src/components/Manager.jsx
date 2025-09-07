@@ -54,7 +54,7 @@ const Manager = () => {
 
 
     setPasswordArray([...passwordArray, { ...form, id: uuidv4() }]);
-    await fetch("http://localhost:3000/", {method: "POST", headers: {"Content-Type": "application/json"}, body: JSON.stringify({...form, id: uuidv4() })})
+    await fetch("https://digi-pass-backend.vercel.app", {method: "POST", headers: {"Content-Type": "application/json"}, body: JSON.stringify({...form, id: uuidv4() })})
     // localStorage.setItem("passwords", JSON.stringify([...passwordArray, { ...form, id: uuidv4() }]));
     setform({ site: "", username: "", password: "" });
     toast("Password Saved!", {
