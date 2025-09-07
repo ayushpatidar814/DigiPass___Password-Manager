@@ -7,7 +7,7 @@ dotenv.config();
 
 const url = "mongodb://localhost:27017";
 const client = new MongoClient(url);
-const dbName = "passop";
+const dbName = "digipass";
 
 const app = express();
 const port = 3000;
