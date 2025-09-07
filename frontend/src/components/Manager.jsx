@@ -79,7 +79,7 @@ const Manager = () => {
     if (c) {
         setPasswordArray(passwordArray.filter(item => item.id !== id))
         
-        await fetch("http://localhost:3000/", { method: "DELETE", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ id }) })
+        await fetch("https://digi-pass-backend.vercel.app/", { method: "DELETE", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ id }) })
 
         toast('Password Deleted!', {
             position: "top-right",
