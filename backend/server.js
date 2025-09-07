@@ -20,7 +20,7 @@ async function main() {
     // Middleware
     app.use(express.json());
     app.use(cors({
-      origin: "https://digi-pass-frontend.vercel.app",
+      origin: "https://digi-pass-mp.vercel.app",
       methods: ["GET", "POST", "DELETE"]
     }));
 
