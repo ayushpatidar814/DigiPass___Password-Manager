@@ -7,7 +7,7 @@ const Footer = () => {
                 <span className='text-green-500'> &lt;</span>
                 <span>DigiPass</span><span className='text-green-500'>&gt;</span>    
             </div>
-            <div className='flex justify-center items-center text-xl md:text-2xl'> Created with <img className='invert w-7 mx-2' src="/favourite-stroke-rounded.svg" alt="icon" /> by CodeWithAyush </div>
+            <div className='flex justify-center items-center text-xs md:text-2xl'> Created with <img className='invert w-7 mx-2' src="/favourite-stroke-rounded.svg" alt="icon" /> by CodeWithAyush </div>
         </div>
     )
 }
