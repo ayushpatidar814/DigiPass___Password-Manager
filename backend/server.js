@@ -5,9 +5,9 @@ const cors = require("cors");
 
 dotenv.config();
 
-const url = "mongodb://localhost:27017";
+const url = process.env.MONGO_URI;
 const client = new MongoClient(url);
-const dbName = "digipass";
+const dbName = process.env.DB_NAME;
 
 const app = express();
 const port = 3000;
