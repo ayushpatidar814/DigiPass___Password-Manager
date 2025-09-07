@@ -64,11 +64,11 @@ async function main() {
 
     // Start server
     app.listen(port, () => {
-      // console.log(`🚀 Server running on http://localhost:${port}`);
+      console.log(`🚀 Server running on http://localhost:${port}`);
     });
 
   } catch (err) {
-    // console.error("❌ Error starting server:", err);
+    console.error("❌ Error starting server:", err);
   }
 }
 
