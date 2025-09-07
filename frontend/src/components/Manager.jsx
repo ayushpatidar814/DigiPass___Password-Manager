@@ -12,7 +12,7 @@ const Manager = () => {
   const [passwordArray, setPasswordArray] = useState([]);
 
   const getPasswords = async () => {
-    let req = await fetch("http://localhost:3000/") 
+    let req = await fetch("https://digi-pass-backend.vercel.app") 
     let passwords = await req.json()
     // console.log(passwords)
     setPasswordArray(passwords);
