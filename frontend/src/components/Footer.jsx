@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = () => {
     return (
         <div className='fixed bottom-0 bg-slate-800 text-white flex justify-between items-center px-5 md:px-23 h-8 w-full pt-0'>
-            <div className="logo font-bold text-white md:text-2xl">
+            <div className="logo font-bold text-white text-xl md:text-2xl">
                 <span className='text-green-500'> &lt;</span>
                 <span>DigiPass</span><span className='text-green-500'>&gt;</span>    
             </div>
